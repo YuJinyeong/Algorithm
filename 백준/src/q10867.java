@@ -18,9 +18,8 @@ public class q10867 {
 		}
 		
 		Iterator<Integer> iter = set.iterator();
-		System.out.print(iter.next());
 		while(iter.hasNext()) {
-			System.out.print(" " + iter.next());
+			System.out.print(iter.next() + " ");
 		}
 		
 	}
